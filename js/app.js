@@ -6,7 +6,7 @@ setTimeout(() => {
         let elements = document.getElementsByClassName("buchbar");
 
         // there is one example element which shows the bookable color. So we need more than that one element on the page
-        if (elements && elements.length && elements.length > 0) {
+        if (elements && elements.length && elements.length > 1) {
             console.log((elements.length - 1) + " bookable appointments");
             chrome.runtime.sendMessage('', {
                 type: 'notification',
