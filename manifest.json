@@ -1,21 +1,31 @@
 {
-  "name": "Greeter Robot",
+  "name": "Berlin Bürgeramt Termin Notifier",
+  "description": "Reloads the Appointment Page of the Berlin Bürgeramt once a minute and issues a push notification if any appointments are available",
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["https://service.berlin.de/terminvereinbarung/termin/day/*"],
+      "matches": [
+        "https://service.berlin.de/terminvereinbarung/termin/day/*"
+      ],
       "js": [
         "js/app.js"
       ]
     }
   ],
-  "background" : {
-    "scripts" : ["js/background.js"],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
     "persistent": false
   },
-  "permissions": ["notifications"],
-  "browser_action": {
-    "default_icon": "icon.png"
+  "permissions": [
+    "notifications"
+  ],
+  "icons": {
+    "16": "icon_16.png",
+    "32": "icon_32.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
   },
   "manifest_version": 2
 }
