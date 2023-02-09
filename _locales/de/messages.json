@@ -1,0 +1,10 @@
+{
+    "appName": {
+        "message": "Berlin Bürgeramt Termin Benachrichtigung",
+        "description": "Title of the extension"
+    },
+    "appDesc": {
+        "message": "Schickt eine Benachrichtigunen, wenn ein Termin auf der Seite des Berliner Bürgeramts frei ist. ",
+        "description": "Description of the extension"
+    }
+}

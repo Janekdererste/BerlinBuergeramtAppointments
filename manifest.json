@@ -1,11 +1,12 @@
 {
-  "name": "Berlin Bürgeramt Termin Notifier",
-  "description": "Reloads the Appointment Page of the Berlin Bürgeramt once a minute and issues a push notification if any appointments are available",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "de",
   "version": "1.0",
   "content_scripts": [
     {
       "matches": [
-        "https://service.berlin.de/terminvereinbarung/termin/day/*",
+        "https://service.berlin.de/terminvereinbarung/termin/day/*"
       ],
       "js": [
         "js/app.js"

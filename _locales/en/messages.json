@@ -1,0 +1,10 @@
+{
+    "appName": {
+        "message": "Berlin Bürgeramt Appointment Notifier",
+        "description": "Title of the extension"
+    },
+    "appDesc": {
+        "message": "Reloads the Appointment Page of the Berlin Bürgeramt once a minute and issues a push notification if any appointments are available",
+        "description": "Description of the extension"
+    }
+}
